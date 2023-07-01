@@ -7,10 +7,23 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Fonts\" />
-    <Folder Include="Images\" />
+    <None Remove="Fonts\Poppins-Regular.ttf" />
+    <None Remove="Images\woman.jfif" />
+    <None Remove="Images\woman.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\woman.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="MVVM\Model\" />
-    <Folder Include="MVVM\View\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\Poppins-Regular.ttf" />
   </ItemGroup>
 
 </Project>

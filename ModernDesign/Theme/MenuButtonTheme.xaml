@@ -13,6 +13,7 @@
 
                             <TextBlock Text="{TemplateBinding Property=Content}"
                                        VerticalAlignment="Center"
+                                       FontFamily="/Fonts/#Poppins"
                                        Margin="50 0 0 0"/>
 
                         </Grid>
@@ -29,6 +30,6 @@
                 <Setter Property="Background" Value="#22202f" />
             </Trigger>
         </Style.Triggers>
-        
-    </Style>    
+
+    </Style>
 </ResourceDictionary>
